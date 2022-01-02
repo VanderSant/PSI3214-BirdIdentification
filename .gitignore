@@ -1,0 +1,31 @@
+# Created by https://www.toptal.com/developers/gitignore/api/labview,labviewnxg
+# Edit at https://www.toptal.com/developers/gitignore?templates=labview,labviewnxg
+
+### LabVIEW ###
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+
+### LabVIEWNXG ###
+# caches
+*.lvcompile
+*.lvindexcache
+
+# Default build output directory for packages, executables, etc.
+Builds/
+
+# End of https://www.toptal.com/developers/gitignore/api/labview,labviewnxg
